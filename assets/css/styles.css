@@ -455,6 +455,10 @@ svg {
   color: var(--first-color);
 }
 
+.download__button{
+  padding-top: 25px;
+}
+
 /*=============== PROJECTS ===============*/
 .projects {
   background-color: var(--container-color);
