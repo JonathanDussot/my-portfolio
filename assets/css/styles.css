@@ -410,38 +410,39 @@ svg {
   color: var(--first-color);
 }
 
-/*=============== HIGHLIGHTS ===============*/
-.highlights__container {
+/*=============== LABS ===============*/
+.labs__container {
   row-gap: 2rem;
   padding-block: 1rem;
 }
 
-.highlights__card {
+.labs__card {
   text-align: center;
   background-color: var(--container-color);
-  padding: 3rem 1.25rem;
+  padding: 2.5rem 1.25rem;
   border-radius: 1rem;
   border: 2px solid var(--container-color);
-  transition: border .4s;
+  transition: border .4s, transform .3s;
 }
 
-.highlights__icon {
+.labs__icon {
   display: block;
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--first-color);
   margin-bottom: .75rem;
 }
 
-.highlights__title {
+.labs__title {
   font-size: var(--h2-font-size);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.highlights__card:hover {
+.labs__card:hover {
   border: 2px solid var(--first-color);
+  transform: translateY(-5px);
 }
 
-.hackprojects__button,
+/*========== .hackprojects__button,
 .download__button {
   justify-content: center;
   font-size: var(--font-medium);
@@ -451,7 +452,7 @@ svg {
 .download__button{
   padding-top: 25px;
 }
-
+======*/
 /*=============== PROJECTS ===============*/
 .projects {
   background-color: var(--container-color);
@@ -674,7 +675,7 @@ svg {
     row-gap: 1rem;
   }
 
-  .highlights__card {
+  .labs__card {
     padding-block: 1.5rem;
   }
 }
@@ -685,7 +686,7 @@ svg {
   .home__container,
   .about__container,
   .skills__container,
-  .highlights__container,
+  .labs__container,
   .projects__container,
   .contact__container {
     grid-template-columns: 360px;
@@ -725,7 +726,7 @@ svg {
     order: 1;
   }
 
-  .highlights__container,
+  .labs__container,
   .projects__container {
     grid-template-columns: repeat(2, 352px);
   }
@@ -828,12 +829,12 @@ svg {
     font-size: var(--h3-font-size);
   }
 
-  .highlights__container {
+  .labs__container {
     grid-template-columns: repeat(3, 352px);
     padding-block: 2.5rem 4rem;
   }
 
-  .highlights__card {
+  .labs__card {
     padding: 3.5rem 2rem;
   }
 
