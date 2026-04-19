@@ -267,7 +267,8 @@ svg {
   row-gap: 2rem;
 }
 
-.home__data {
+.home__data,
+.labs__intro {
   text-align: center;
 }
 
