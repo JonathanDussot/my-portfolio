@@ -830,7 +830,7 @@ svg {
   }
 
   .labs__container {
-    grid-template-columns: repeat(3, 352px);
+    grid-template-columns: repeat(2, 352px);
     padding-block: 2.5rem 4rem;
   }
 
